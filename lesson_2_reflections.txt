@@ -1,3 +1,7 @@
 Q] What happens when you initialize a repository? Why do you need to do it?
 
 A] When you initialize you are creating a web, git web.  All commits from there on can be set to stick to the newly created web.  Gaining access to the git functionality.
+
+Q] How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A] The staging area is a temporary holding ground for files/data.  You can edit and hit stuff before commiting them in the staging area.  
