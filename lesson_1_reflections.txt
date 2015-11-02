@@ -1,0 +1,29 @@
+Q] How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+A] It introduced where changes had occured.  This narrows down the search dramatically.
+
+Instead of weeding through hundreds of lines you can concentrate your energies on the changes.
+
+Q] How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A] Having easy access gives you the ability to go back to a point where the code may have been working.  Compare changes made with the working file and the one that may have bleeps in it.  Useful stuff.
+
+Q] What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+A] There is benefit in manuall controlling when to commit.  You can commit only changes that you made and summarize the changes in a log.  If you save to frequently you may lose track of things because of the size of the log file.  The downside would be losing information when forgetting to commit or having computer failures of any kind.
+
+Q] Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+A] With Git you are focused more on coding and not just writing docs.  In google docs you have no real dependencies on other files.  However, in Git you will have many dependencies in coding say a html game.  
+
+Q] How can you use the commands git log and git diff to view the history of files?
+
+A] Use git log to find the commit that is of interest for reverting or comparing too.  You can also find all the other commits that you wish to do comparison with.  Identifying specifically which one you are wanting to revert or compare with.
+
+Q] How might using version control make you more confident to make changes that could break something?
+
+A] Much more confident.  If nothing else, one could go back through each commit until finding the one where the bug is not in.  Then you know the changes from that commit and the next is where the bug was created.
+
+Q] Now that you have your workspace set up, what do you want to try using Git for?
+
+A] I want to try using Git to develop the TRIZ templates and othe projects I have had hopes of completing here soon.

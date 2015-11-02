@@ -1,0 +1,3 @@
+Q] What happens when you initialize a repository? Why do you need to do it?
+
+A] When you initialize you are creating a web, git web.  All commits from there on can be set to stick to the newly created web.  Gaining access to the git functionality.
