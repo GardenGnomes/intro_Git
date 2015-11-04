@@ -9,3 +9,7 @@ A2] If you pull automatically you could cause problems with current progress you
 Q3] Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 A3] Branches are the connection of new commits to its parent commits.  A clone is when you copy a repository to your local machine.  A fork is when you clone a repository in GitHub.  You would use clone to work locally and fork to work in GitHub and have the connection to the orignal creator.
+
+Q4] What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A4] You can use a fast-forward merge where a merge with a common ancestor of the update will not need to do a merge but just an addition.
