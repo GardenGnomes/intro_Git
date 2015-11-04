@@ -13,3 +13,7 @@ A3] Branches are the connection of new commits to its parent commits.  A clone i
 Q4] What is the benefit of having a copy of the last known state of the remote stored locally?
 
 A4] You can use a fast-forward merge where a merge with a common ancestor of the update will not need to do a merge but just an addition.
+
+Q5] How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A5] To collaborate without using Git it would be difficult.  You would need the working docs plus a running doc/spreadsheet that holds all the changes.  Would rely on every contributor to manual put in everything they do.  Lot of work and likely errors bound to happen.
