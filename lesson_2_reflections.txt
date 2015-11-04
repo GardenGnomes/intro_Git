@@ -5,3 +5,23 @@ A] When you initialize you are creating a web, git web.  All commits from there 
 Q] How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 A] The staging area is a temporary holding ground for files/data.  You can edit and hit stuff before commiting them in the staging area.  
+
+Q] How can you use the staging area to make sure you have one commit per logical change?
+
+A] You can use the staging area to determine which files you will be committing.  Check which files will be included in the commit by using git status.  Then if that matches what you'd expect then commit the files you deem necessary.
+
+Q] What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A] When you want to create an experimental change.  Example would be making new level in a game or adding a new nav bar to your index.html file.  This would help to have it in a new branch.  It would keep the working file clean of any newly introduced bugs that may have entered your code.  
+
+Q] How do the diagrams help you visualize the branch structure?
+
+A] Diagrams show the parent/child relationship by displaying the commits in an orderly fashion (most recent -> oldest).  Changes can be seen easily and the position in relationship to another branch is easily denoted.
+
+Q] What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A] It is represented the way we have it because it includes all commits that are independent and then shared.  No common parent commits should be duplicated as that is not neccessary. 
+
+Q] What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A] Pros: it can make it seamless and eliminate human error in cases where it is straight forward.  Cons: it may not know what to do in some cases, will need to have programmer make the decision.
