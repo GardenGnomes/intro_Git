@@ -1,1 +1,3 @@
+Q1] When would you want to use a remote repository rather than keeping all your work local?
 
+A1] When sharing with others it is a good idea to have it accessible and tracked in a central location to all users who may provide input.
