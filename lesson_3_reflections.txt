@@ -5,3 +5,7 @@ A1] When sharing with others it is a good idea to have it accessible and tracked
 Q2] Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 A2] If you pull automatically you could cause problems with current progress you are making.  If the pull is done in the middle of your work it'll mess up what you have going.  Likely, this is undesirable for most people.
+
+Q3] Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A3] Branches are the connection of new commits to its parent commits.  A clone is when you copy a repository to your local machine.  A fork is when you clone a repository in GitHub.  You would use clone to work locally and fork to work in GitHub and have the connection to the orignal creator.
